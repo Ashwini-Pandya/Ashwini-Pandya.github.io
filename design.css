@@ -62,6 +62,10 @@ body {
   max-width: 600px;
   text-align: center;
   padding: 2rem 0rem;
+  font-weight: 550;
+}
+.subjects {
+  padding-top: 3rem;
 }
 .off-white {
   background-color: var(--off-white);
@@ -111,24 +115,14 @@ footer ul {
 }
 
 .cell-header {
-  font-size: 2rem;
-}
-.para-1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding-top: 0.5rem;
-}
-.para-2 {
-  font-size: 1rem;
-}
-.para-3 {
-  padding-top: 1rem;
-  font-size: 1rem;
-}
-.cell-header {
   padding-top: 7rem;
   font-size: 2rem;
 }
+.counter-header {
+  font-size: 2rem;
+  padding-top: 7rem;
+}
+
 .hero-header-1 {
   text-align: center;
   padding-top: 3rem;
