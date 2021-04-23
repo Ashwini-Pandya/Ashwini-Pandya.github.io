@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+:root {
+  --primary-color: #10b981;
+  --secondary-color: #ddd6fe;
+  --off-white: #e5e7eb;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navigation {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin: 0rem 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation .name {
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  margin: -0.5rem 0.5rem;
+  color: white;
+}
+.list-item-inline a {
+  text-align: center;
+  color: white;
+}
+.hero {
+  margin: 1rem;
+}
+.hero .hero-image {
+  width: 600px;
+  padding: 1rem;
+  margin: auto;
+  display: block;
+}
+
+.hero-header {
+  text-align: center;
+}
+
+.heading-highlight {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+.off-white {
+  background-color: var(--off-white);
+}
+.link {
+  text-decoration: none;
+}
+.link-active {
+  text-decoration: underline;
+}
+.link-primary {
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+.footer {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  padding: 2.5rem 0rem;
+  margin: 1rem;
+}
+footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer-heading {
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.intro {
+  text-align: center;
+}
+.portfolio-header {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
+.date {
+  font-size: 1.3rem;
+}
+
+.cell-header {
+  font-size: 2rem;
+}
+.para-1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+.para-2 {
+  font-size: 1rem;
+}
+.para-3 {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.cell-header {
+  padding-top: 7rem;
+  font-size: 2rem;
+}
+.hero-header-1 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+.footer-p {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  padding: 2.5rem 0rem;
+  margin: 1rem;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero .hero-image {
+    width: 300px;
+  }
+}
