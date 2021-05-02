@@ -42,7 +42,7 @@ body {
   margin: 1rem;
 }
 .hero .hero-image {
-  width: 600px;
+  width: 400px;
   padding: 1rem;
   margin: auto;
   display: block;
@@ -137,6 +137,11 @@ footer ul {
   padding: 2.5rem 0rem;
   margin: 1rem;
   margin-top: 5rem;
+}
+
+.para-1 {
+  text-align: center;
+  width: 50rem;
 }
 
 @media only screen and (max-width: 600px) {
