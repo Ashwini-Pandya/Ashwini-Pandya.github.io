@@ -152,6 +152,10 @@ footer ul {
     /* text-align: center; */
     width: 16rem;
   }
+  .navigation .list-non-bullet .list-item-inline .link {
+    display: block;
+  }
+
   .navigation .list-non-bullet .list-item-inline .link-active {
     display: block;
   }
