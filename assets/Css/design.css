@@ -148,4 +148,11 @@ footer ul {
   .hero .hero-image {
     width: 300px;
   }
+  .para-1 {
+    /* text-align: center; */
+    width: 16rem;
+  }
+  .navigation .list-non-bullet .list-item-inline .link-active {
+    display: block;
+  }
 }
