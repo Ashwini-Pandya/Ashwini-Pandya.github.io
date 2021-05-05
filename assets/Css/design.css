@@ -33,7 +33,7 @@ body {
 
 .list-item-inline {
   display: inline;
-  margin: -0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem;
   color: white;
 }
 .list-item-inline a {
@@ -71,7 +71,7 @@ body {
   margin: 1rem;
 }
 .hero .hero-image {
-  width: 400px;
+  width: 350px;
   padding: 1rem;
   margin: auto;
   display: block;
@@ -173,7 +173,7 @@ footer ul {
   width: 50rem;
 }
 
-@media only screen and (max-width: 7000px) {
+@media only screen and (max-width: 750px) {
   .hero .hero-image {
     width: 300px;
   }
