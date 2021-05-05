@@ -173,7 +173,7 @@ footer ul {
   width: 50rem;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 7000px) {
   .hero .hero-image {
     width: 300px;
   }
