@@ -10,17 +10,43 @@
         <title>Projects</title>
     </head>
 <body>
-    <nav class="navigation">
-        <div class="name">
-            Ashwini Pandya
+    <nav class="nav">
+        <div class="nav-header">
+          <h2>Ashwini Pandya</h2>
         </div>
-        <ul class="list-non-bullet">
-            <li class="list-item-inline" ><a class="link" href="../../index.html" ><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-            <li class="list-item-inline"><a class="link link-active" href=# > <i class="fa fa-files-o" aria-hidden="true"></i> Projects</a></li>
-            <li class="list-item-inline"><a class="link" href="./about.html"><i class="fa fa-female" aria-hidden="true"></i> About</a></li>
-            <li class="list-item-inline"><button id="dark-mode" class="dark" onclick="darkmode()">Dark-mode🌙</button>
-        </ul>
-    </nav>
+        <div class="list-right">
+          <ul class="list-non-bulleted">
+            <div id="bars">
+              <button class="btn-bar" onclick="togglenav()">
+                <li id="bars"><i class="fa fa-bars"></i></li>
+              </button>
+            </div>
+            <div class="list" id="menu">
+              <li class="list-item">
+                <a class="link" href="../../index.html"
+                  ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link link-active" href="./projects.html">
+                  <i class="fa fa-copy"></i> Projects</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="./about.html"
+                  ><i class="fa fa-female" aria-hidden="true"></i> About</a
+                >
+              </li>
+              <li class="list-item">
+                <button id="dark-mode" class="dark" onclick="darkmode()">
+                  🌙Dark-mode
+                </button>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    
     
     <header>
         <h2 class="hero-header-1">My <span class="heading-highlight"> projects </span></h2>

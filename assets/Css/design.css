@@ -9,52 +9,60 @@ body {
   background-color: white;
   color: black;
 }
-
-.navigation {
-  border: 1px solid var(--primary-color);
-  background-color: var(--primary-color);
-  border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  margin: 0rem 1rem;
-  padding: 2rem;
+.nav {
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  background-color: #10b981;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-.navigation .name {
-  font-weight: bolder;
-  color: white;
-  font-size: 1.5rem;
+  align-items: center;
+  padding: 1rem;
+  color: black;
 }
 
-.list-non-bullet {
+.nav-header {
+  text-align: left;
+  color: black;
+}
+
+.list-right {
+  text-align: right;
+}
+
+.list-item {
+  display: inline;
+  padding: 0.5rem;
+}
+
+ul li {
   list-style: none;
 }
 
-.list-item-inline {
-  display: inline;
-  margin: 0.5rem 0.5rem;
-  color: white;
+ul li a {
+  color: black;
+  text-decoration: none;
 }
-.list-item-inline a {
-  text-align: center;
-  color: white;
+
+.btn-bar {
+  display: none;
 }
 
 .dark {
-  margin-top: 0.5rem;
   border: none;
-  border-radius: 0.5rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  background-color: var(--primary-color);
-  color: white;
-  font-size: 15px;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-left: -0.5rem;
+  color: black;
 }
 
 .dark-mode {
   background-color: black;
   color: white;
+}
+
+.dark-mode .dark {
+  color: black !important;
 }
 
 .dark-mode .off-white {
@@ -111,6 +119,10 @@ body {
   padding: 0.5rem 1rem;
   background-color: var(--primary-color);
   color: white;
+}
+.list-item-inline {
+  display: inline;
+  margin: 0.5rem;
 }
 .footer {
   background-color: var(--primary-color);
@@ -177,23 +189,19 @@ footer ul {
   .hero .hero-image {
     width: 300px;
   }
+  .list {
+    display: none;
+  }
+  .list-item {
+    display: block;
+  }
+  .btn-bar {
+    display: inline-block;
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+  }
   .para-1 {
-    /* text-align: center; */
     width: 16rem;
-  }
-  .navigation .list-non-bullet .list-item-inline .link {
-    display: block;
-  }
-
-  .navigation .list-non-bullet .list-item-inline .link-active {
-    display: block;
-  }
-
-  .dark {
-    display: inline-block;
-  }
-
-  .dark-mode {
-    display: inline-block;
   }
 }
